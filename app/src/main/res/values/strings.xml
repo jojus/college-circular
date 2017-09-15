@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InstaAcad</string>
+    <!--<string name="hello">Hello World, MyAndroidAppActivity!</string>-->
+    <string name="radio_teach">Teaching Staffs</string>
+    <string name="radio_nonteach">Non-Teaching Staffs</string>
+    <string name="title_activity_adminhomepage">adminhomepageActivity</string>
+    <!--<string name="btn_display">Display</string>-->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
