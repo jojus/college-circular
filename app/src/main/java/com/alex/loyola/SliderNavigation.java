@@ -3,7 +3,9 @@ package com.alex.loyola;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -77,7 +79,13 @@ public class SliderNavigation extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        if (id == R.id.send_message)
+        {
 
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.frame, new SendActivity());
+            ft.commit();
+        }
         if (id == R.id.about_us) {
             // Handle the camera action
         } else if (id == R.id.feebback) {

@@ -4,6 +4,11 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/send_message"
+            android:title="Send SMS" />
+
+
+        <item
             android:id="@+id/about_us"
             android:icon="@drawable/ic_menu_camera"
             android:title="About Us" />
