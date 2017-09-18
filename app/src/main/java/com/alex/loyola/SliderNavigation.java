@@ -87,7 +87,7 @@ public class SliderNavigation extends AppCompatActivity
             ft.commit();
         }
         if (id == R.id.about_us) {
-            // Handle the camera action
+
         } else if (id == R.id.feebback) {
 
         } else if (id == R.id.logout) {
