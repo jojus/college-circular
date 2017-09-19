@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "110001509290",
+    "firebase_url": "https://college-circular-b4d95.firebaseio.com",
+    "project_id": "college-circular-b4d95",
+    "storage_bucket": "college-circular-b4d95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110001509290:android:a99a6d148e88c863",
+        "android_client_info": {
+          "package_name": "com.alex.loyola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110001509290-vuh36bckj2n5lm5i4iku8sdvlf7f6bi0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alex.loyola",
+            "certificate_hash": "00466bb65bcb71c4e2d6cf0e3b313ac50c62791f"
+          }
+        },
+        {
+          "client_id": "110001509290-b7hs5u1eoae8dsvcj42eambml4kfjsfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmMjdDEmRHXJTk2K6GGyJakiWjsrSIQh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110001509290-b7hs5u1eoae8dsvcj42eambml4kfjsfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
